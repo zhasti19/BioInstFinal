@@ -4,6 +4,7 @@ import serial
 import time
 from matplotlib.animation import FuncAnimation
 from PyNeuro.PyNeuro import PyNeuro
+###!
 
 # Establish serial connection with Arduino
 arduino = serial.Serial('COM3', 9600)  # Adjust port and baud rate as needed
